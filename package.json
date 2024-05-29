@@ -2,7 +2,16 @@
     "name": "Curso_Node_RED",
     "description": "Esta es una prueba del uso de proyectos dentro de Node-RED",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "@flowfuse/node-red-dashboard": "1.9.1",
+        "@flowfuse/node-red-dashboard-2-ui-led": "1.0.0",
+        "node-red-contrib-fs": "1.4.1",
+        "node-red-contrib-modbus": "5.30.0",
+        "node-red-contrib-s7": "3.1.0",
+        "node-red-contrib-telegrambot": "15.1.10",
+        "node-red-contrib-whatsapp-cmb": "1.0.3",
+        "node-red-node-email": "2.2.1"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
